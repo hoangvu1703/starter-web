@@ -2,50 +2,78 @@
     box-sizing: border-box;
 }
 body {
-    background: rgba(0, 0, 0, 0.123);
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'RobotoFlex-VariableFont_GRAD', sans-serif;
     font-size: 14px;
     box-sizing: border-box;
 }
+@font-face {
+    font-family:'roboto flex' ;
+    src: url(font/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf) format('ttf') ;
+    font-weight: 15px;
+    font-style: normal;
+}
+
 .container-main {
-    background-color: floralwhite;
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
-}
+    display: flex;
 
-.iiss {
-    width: 30%;
-    float: left;
-    text-align: left;
+}
+.future {
+    display: flex;
+    width: 25%;
+    
+}
+.cv-left {
+    display: flex;
+    flex-direction: column;
 }
 img{
     position: absolute;
-    left: 450px;
+    left: 5px;
     top: 5px;
     border-radius: 50%;
     box-sizing: border-box;
     z-index: 1;
-    border: solid 5px #ccefdc;
+    border: solid 5px #00b14f;
 }
-h1, span{
+.name{
+    text-align: center;
+}
+h1, span {
     color: #00b14f;
+    font-size: 25px;
 }
 .imagecv { 
-    width: 100%;
-    height: 100%;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     box-sizing: border-box;
-    border: 4px;
     overflow: hidden;
-    background-color: #00b14f; 
+    background-color: #ccefdc; 
+    position: relative;
+
 }
 .hero{
-    width: 90%;
+    width: 100%;
     margin: 10px auto;
     padding: 10px 8px;
     background-color: #f5f5f5;
     border-radius: 5px;
+}
+.cv-profile, .cv-gender, .phone, .cv-email,
+.adress-cv, .website-cv {
+    display:flex
+}
+.super {
+    display: flex;
+    text-align: left;
+
+
+}
+span{
+    font-size: large;
 }
 
 .cv-profile, .cv-gender, .phone, .cv-email, .adress-cv, .website-cv {
@@ -53,20 +81,37 @@ h1, span{
     width: 188px;
     
 }
-
-.super {
-    text-align: left;
-    float: left;
-    box-sizing: border-box;
+p {
+    font-size: 13px;
 }
 
+.pro {
+    font-size: 20px;
+}
+.ruler{
+    width: 2px;
+    max-height: max-content;
+    margin-right: 20px;
+    background-color: #f5f5f5;
+}
+.cv-skill-bar{
+    display: flex;
+    
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #00b14f   ;
+}
 
+.cv-right{
+    width: 75%;
+    display: inline-block;
+}
 .aside {
-    width: 70%;
     float: right;
-    padding-top: 2px;
+    display: block;
+    padding-top: 20px;
     padding-right: 16px;
-    font-size: inherit;
 }
 
 
