@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: #151414;
+  box-sizing: border-box;
+
+}
+.group {
+  color: #595859;
+  box-sizing: border-box;
+}
+.header {
+  padding-top: 20px;
+}
+
+.container {
+  display: flex
+}
+.img {
+  display : flex;
+  width: 60%;
+  margin-top: 165px;
+  margin-left: 280px;
+}
+.qwe {
+  display:flex;
+  
+}
+.para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+}
+.name {
+  font-size: 55px;
+}
+.qer {
+  font-size: 26px;
+  margin-top: 10px;
+}
+p {
+  color: #707070;
+}
+.qte {
+  color:#ffffff
+
+}
+.qrt {
+  margin-right: 380px;
+}
