@@ -1,0 +1,8 @@
+body {
+    background-image : url(https://image.bnews.vn/MediaUpload/Org/2023/05/23/74ba7a182f58c6069f49-20230523123556.jpg),
+    linear-gradient(0, #525253,#525253) ;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
