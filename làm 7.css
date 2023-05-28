@@ -1,0 +1,45 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 575px;
+    background-color: #211e1e;
+}
+.About {
+    margin: 0 20%
+}
+.contact, .lip {
+    font-size: 40px;
+    color: #ffffff;
+}
+.zz {
+    font-size: 40px;
+}
+.uu{
+    color: #7a7a7a;
+    line-height: 30px;
+    margin-bottom: 38px;
+}
+
+.mm {
+    padding: 12px 60px;
+}
+.bb{
+    color: #707070;
+    font-size: 25px;
+}
+.under {
+    color: #707070;
+    font-size: 25px;
+}
+.wri {
+    padding: 105px 64px;
+}
+.push {
+    padding: 14px 40px;
+    font-size: 25px;
+    margin: 40px 0px
+}
