@@ -1,3 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-atribute {
+    display: flex;
+    gap: 20px
+}
+.container-left {
+    width: max-content;
+}
 .inpush-left {
     width: 130px;
     height: 48px; 
@@ -21,15 +31,32 @@
     align-items: center;
     position: relative;
 }
+.main-container-left-top {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    width: 100%;
+}
+.find {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 .main-container-left-bot {
     display: flex;
-    gap: 44px
+    gap: 44px;
+    width: 100%;
 }
 .menu-top {
     display:flex;
-    justify-content: center;
+    gap: 15px;
     margin-top: 15px;
+    align-items: center
 
+
+}
+.menu-right {
+    justify-content: center;
 }
 .icon-main-menu {
     width: 20px
@@ -40,29 +67,28 @@
     background-color: #ffffff;
 }
 .border-left {
-    width: 4%;
+    width: 30%;
 }
 .border-right {
-    width: 10%
+    width: 70%
 }
 .icon-flex, .menu-top-right {
     display: flex;
     gap: 20px;
-    font-size: 14px
+    font-size: 14px;
+    align-items: center
 }
-.menu-top-right {
-    margin-top: 7px;
-}
+
 .bar-display-right {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 15px;
     margin-left: 20px;
 }
 .bar-display-icon {
     display: flex;
     flex-direction: column;
-    gap:35.5px;
+    gap:35px;
 
 }
 .ruler {
@@ -76,14 +102,13 @@
     margin-left: -20px;
 }
 .icon-star {
-    margin-top: 5px;
     color: #6a4cd0;
 }
 .ruler-right-bot {
     height: 2px;
     background-color: #e7e9f6;
     margin-left: -20px;
-    margin-top: -4px;
+    margin-top: -3px;
 }
 .inbox {
     position:relative
@@ -100,11 +125,11 @@
 }
 .in-mail-right {
     position: absolute;
-    left: 9.5%;
-    top: 26%;
+    top: 0px;
     border:solid 4px; 
     border-radius: 50%; 
     color: red;
+    right: -2px;
 }
 .icon-trending {
     margin-top: 2px;
@@ -116,36 +141,40 @@
     color: #6a4cd0;
     height: 20px;
     right: 0;
-    margin-top: 5px;
 }
 .star-icon {
     position: relative;
-    color: #6a4cd0
 }
 .star-flex {
     position: absolute;
     border:solid 2px; 
     color: #6a4cd0;
     height: 20px;
-    right: 0;
-    margin-top: 10px;  
+    right: 0;  
 }
 .user-icon {
     display:flex;
     flex-direction: column;
-    gap:20px;
+    gap: 12px
+}
+
+.user-icon-left {
+    gap: 12px;
 }
 .user-gender {
     align-items: center;
     
+}
+.mes-top {
+    position: relative;
 }
 .gender {
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 
 }
 .gender-gradient-one {
@@ -167,12 +196,43 @@
 }
 .icon-left {
     display:flex;
-    gap:16px;  
+    gap:16px;
+    align-items: center;
+    
 }
 .border-icon {
     display:flex;
     align-items: center;
+    justify-content: center;
     border-radius: 50%;
+    width: 30px; 
+    height: 30px;
+}
+.light-right {
+    position: absolute;
+    border:solid 4px;
+    border-radius: 50%;
+    color: green; 
+    right: 0;
+    bottom: 0;
+}
+.friend {
+    font-size: 14px;
+}
+
+.main-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-bottom: 20px;
+}
+
+.name-status {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.status-onl {
+    font-size: 10px;
 }
 
 

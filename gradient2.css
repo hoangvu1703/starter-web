@@ -1,0 +1,8 @@
+.input-center {
+    width: 100%;
+    height: 30px;
+}
+.container-center-left {
+    display: flex;
+    flex-direction: column;
+}
