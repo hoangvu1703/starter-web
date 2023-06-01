@@ -1,9 +1,16 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+@font-face {
+    font-family: 'Overpass';
+    src: url(/font/Overpass-VariableFont_wght.ttf) format('ttf');
+    font-weight: normal;
+    font-style: normal;
 }
+body {
+    font-family: 'Overpass',sans-serif;
+}
+
 .main-atribute {
     display: flex;
-    gap: 20px
+    gap: 40px
 }
 .container-left {
     width: max-content;
@@ -27,6 +34,9 @@ body {
     flex-direction: column;
     gap: 15px;
 }
+.gradient-background {
+    background-color: #e7e9f6;
+}
 .icon-setting {
     align-items: center;
     position: relative;
@@ -34,13 +44,13 @@ body {
 .main-container-left-top {
     display: flex;
     flex-direction: column;
-    gap: 26px;
+    gap: 32px;
     width: 100%;
 }
 .find {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
 }
 .main-container-left-bot {
     display: flex;
@@ -64,6 +74,8 @@ body {
 .border-setting {
     border:  solid 0px;
     border-radius: 25px;
+}
+.border-color {
     background-color: #ffffff;
 }
 .border-left {
@@ -72,10 +84,9 @@ body {
 .border-right {
     width: 70%
 }
-.icon-flex, .menu-top-right {
+.icon-flex {
     display: flex;
     gap: 20px;
-    font-size: 14px;
     align-items: center
 }
 
@@ -230,6 +241,7 @@ body {
 .name-status {
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 14px;
 }
 .status-onl {
     font-size: 10px;

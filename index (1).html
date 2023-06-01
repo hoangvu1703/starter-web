@@ -75,7 +75,7 @@
         </div>
         <div class="main-container-left-bot">
           <!--menu-bot-->
-          <div class="border-setting border-left">
+          <div class="border-setting border-color border-left">
             <div class="bar-display">
               <div class="menu-top menu-right">
                 <svg class="icon-menu" style="width: 30px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -131,7 +131,7 @@
               </div>
             </div>
           </div>
-          <div class="border-setting border-right">
+          <div class="border-setting border-color border-right">
             <div class="bar-display-right">
               <div class="menu-top">
                 <svg class="icon-menu " style="width: 30px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -217,30 +217,90 @@
       <div class="container-center-left">
         <div class="center-left-top">
           <div class="welcome">
-            <h1>Hi,<br>Welcome back</h1>
+            <h1 class="chat">Hi,<br>Welcome back.</h1>
           </div>
           
           <div class="user-email">
             <div class="user-name">
-              <form>
-                <label for="first name">user name or email</label><br>
-                <input class="input-center border-setting" id="email" type="email" name="email" placeholder="username@email.com">
+              <form class="inline">
+                <label class="status-onl" for="first name">user name or email</label><br>
+                <input class="input-center gradient-background border-setting" id="email" type="email" name="email" placeholder="username@email.com">
               </form>
             </div>
             <div class="password">
-              <form>
-                <label for="last name">password</label><br>
-                <input class="input-center border-setting" id="password"type="password" name="password" placeholder="*********">
+              <form class="inline">
+                <label class="status-onl" for="last name">password</label><br>
+                <input class="input-center gradient-background border-setting" id="password"type="password" name="password" placeholder="*********">
+                <svg class="eyes" style="width: 18px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88" />
+                </svg>
               </form>
+              <div class="forgot">
+                <a class="underline" href="#">forgot password ?</a>
+              </div>
+            </div>
+          <div class="log-in">
+            <button class="button-log">login</button>
+          </div>
+          </div>
+        </div>
+        <div class="center-left-bottom">
+          <div class="user-plus icon-left">
+            <div class="user-chat">
+              <div class="border-bot gender-gradient-one status">
+                <svg class="icon-user" style="width: 30px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                </svg>
+                <div class="light-right"></div>
+              </div>
+              <p class="friend name-status">Adam Suley<br><span class="status-onl">online</span></p>
+            </div>
+            <div class="plus">
+              <svg style="width:30px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <svg style="width:30px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
+              </svg>
             </div>
           </div>
-          <div class="forgot"></div>
+          <div class="ruler-center ruler"></div>
           
-          <div class="log-in"></div>
+          <div class="chat-center">
+            <div class="day-send">
+              <p class="day">Friday, 02 July 2021<br>15:24</p>
+            </div>
+            <div class="chat-user">
+              <div class="reply gradient-background more">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+              </div>
+              <div class="reply gradient-background reduce ">
+                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
+              </div>
+
+            </div>
+            <div class="chat-right">
+              <div class="user-reply gender-gradient-one reduce">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+              </div>
+              <div class="user-reply gender-gradient-one side">
+                <p>........</p>
+              </div>
+            </div>
+          </div>
+          <div class="ruler-center ruler"></div>
+          
+          <div>
+            <textarea></textarea>
+            <div>
+              <svg style="width:20px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+              </svg>
+              
+            </div>
+          </div>
+
         </div>
-        
-        
-        <div class="center-left-bottom"></div>
       </div>
       <div class="container-center-right"></div>
       <div class="container-right"></div>
