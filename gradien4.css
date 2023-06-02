@@ -1,0 +1,21 @@
+.container-right {
+    width:20%;
+    display: flex;
+}
+.user-profile {
+    display:flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+.user-para {
+    display:flex;
+    gap: 170px;
+    align-items: center;
+}
+.user-class {
+    display:flex;
+}
+.star-icon-user {
+    display:flex;
+}

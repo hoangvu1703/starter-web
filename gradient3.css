@@ -1,0 +1,148 @@
+.container-center-right {
+    display: flex;
+    width: 34%;
+    flex-direction: column;
+    gap: 40px;
+}
+.hightlight {
+    display :flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+.user-hightlight {
+    display :flex;
+    gap: 50px;
+    margin-bottom: 8px
+}
+.first-user {
+    display:flex;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-color: hsl(210deg 3.7% 89.41%);
+    justify-content: center;
+    
+}
+.second-user {
+    gap: 34px!important;
+}
+.user-position {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.small-plus {
+    position: absolute;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(to left,#6a4cd0 20%,#965feb 80%);
+    text-align: center;
+    color: #ffffff;
+    top:14%;
+    right: -3%;
+}
+.color-border {
+    border-radius: 50%;
+    border: #ffffff solid 2px;
+}
+.user-image {
+    border-radius: 50%;
+    border: #6a4cd0 solid 2px;
+}
+.user-update {
+    text-align: center;
+}
+.arrow {
+    margin-bottom: 34px;
+    color:#6a4cd0
+}
+.user-main,.para {
+    margin-left: 30px;
+}
+.graphic {
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+.value {
+    display:flex;
+    gap: 60px;
+    justify-content: center
+}
+.small-size {
+    font-size: 9px;
+}
+.color-para {
+    font-size: 20px;
+}
+.number1 {
+    color: #6a4cd0;
+}
+.number2 {
+    color: #dd86a2;
+}
+.number3 {
+    color: #f0e19b;
+}
+.number4 {
+    color: #d6626e;
+}  
+.percent {
+    display:flex;
+    gap:22px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 42px;
+}
+.target {
+    margin-bottom: 18px;
+}
+.align {
+    margin-left: 91px;
+}
+.progress-bar {
+  
+    background-color: #e7e9f6;
+    width: 75%;
+    height: 12px;
+    border-radius: 10px;
+}
+  
+.progress {
+    height: 100%;
+    border-radius: 10px;
+}
+.chart {
+    display: flex;
+    flex-direction: column;
+    gap: 245px;
+    
+}
+.birthday {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.day-select {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.size-day {
+    font-size: 10px;
+}
+.day-border {
+    display: flex;
+    width: 48px;
+    border-radius: 11px;
+    background: linear-gradient(to left,#6a4cd0 20%,#965feb 80%);
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+.select {
+    gap: 35px !important;
+}

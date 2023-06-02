@@ -13,7 +13,7 @@ body {
     gap: 40px
 }
 .container-left {
-    width: max-content;
+    width: 20%;
 }
 .inpush-left {
     width: 130px;
@@ -54,7 +54,7 @@ body {
 }
 .main-container-left-bot {
     display: flex;
-    gap: 44px;
+    gap: 40px;
     width: 100%;
 }
 .menu-top {

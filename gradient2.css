@@ -5,7 +5,7 @@
 .container-center-left {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 34px;
     width: 20%
 }
 .chat {
@@ -27,7 +27,7 @@
 .user-email {
     display:flex;
     flex-direction: column;
-    gap:16px
+    gap:28px;
 }
 .user-name,.password {
     display:flex;
@@ -36,10 +36,12 @@
 }
 .forgot {
     display:flex;
-    justify-content: flex-end;
+    margin-left: 58%;
+
 }
 .password {
     position: relative;
+    gap: 10px
 }
 .eyes {
     position: absolute;
@@ -63,13 +65,15 @@
     border-radius: 40px;
     background: linear-gradient(to left,#6a4cd0 20%,#965feb 80%);
     border: solid 0;
+    color: #ffffff;
+    font-size: 15px;
 }
 .center-left-bottom {
     display:flex;
     background-color: #ffffff;
     flex-direction: column;
     border-radius: 30px;
-    gap: 20px;
+    gap: 17px;
 }
 .user-chat {
     display:flex;
@@ -77,8 +81,12 @@
     gap: 16px;
 }
 .user-plus {
-    gap: 160px!important;
-}.border-bot {
+    gap: 133px!important;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.border-bot {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -98,11 +106,12 @@
 }
 .day {
     text-align: center;
+    margin: 0;
 }
 .chat-user {
     display:flex;
     flex-direction: column;
-    gap: 15px
+    gap: 20px
 }
 .reply {
     display:flex;
@@ -122,6 +131,7 @@
     border: solid 0;
     border-radius: 20px 20px 0px 20px;
     font-size: 14px;
+    margin-right: 20px;
 }
 .side {
     width: 20%;
@@ -130,5 +140,20 @@
 .chat-right {
     display: flex;
     flex-direction: column;
-    gap: 15px
+    gap: 20px;
+    align-items:flex-end;
+}
+.text-chat {
+    display: flex;
+    margin-bottom: 12px;
+    justify-content: center;
+    gap: 10px;
+}
+.area {
+    color: #ffffff;
+}
+.chat-chit{
+    border-radius: 30px;
+    width: 70%;
+    border: solid 0
 }
