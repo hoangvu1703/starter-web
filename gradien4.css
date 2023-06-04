@@ -1,21 +1,69 @@
 .container-right {
-    width:20%;
+    width:16.3%;
     display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .user-profile {
     display:flex;
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 30px;
+    gap: 20px;
 }
 .user-para {
     display:flex;
-    gap: 170px;
+    gap: 160px;
     align-items: center;
+    margin-left: 30px;
 }
 .user-class {
     display:flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 30px;
 }
-.star-icon-user {
+.star-icon-user,.star-icon-class {
     display:flex;
+    gap: 8px;
+}
+.user-icon-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.review-class {
+    width: 50px !important;
+    height: 50px !important;
+}
+.contact-email {
+    display: flex;
+    gap: 12px
+}
+.contact-size {
+    font-size: 10px;
+}
+.user-contact {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.button-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 23px;
+}
+.button-push {
+    border-radius: 30px;
+    width: 80%;
+    height: 30px;
+    border: solid 0;
+}
+.text-review,.star-icon-user {
+    margin-left: 30px;
 }
